@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+  <title id="title">DNA και μοριακή βιολογία</title>
+  <desc id="desc">Έλικα DNA πίσω από μεγεθυντικό φακό με μοριακή δομή.</desc>
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- DNA backbone -->
+    <path d="M48 225C88 190 82 151 63 117 47 88 58 54 94 36" stroke-width="7"/>
+    <path d="M168 31c-35 20-49 49-33 80 12 23 30 42 24 68" stroke-width="7"/>
+    <path d="M94 36c33 18 49 48 34 78-10 21-30 37-34 58" stroke-width="7"/>
+    <path d="M48 225c-12-30-6-58 21-78 24-18 52-29 59-58 5-20-2-38-20-55" stroke-width="7"/>
+
+    <!-- DNA rungs -->
+    <g stroke-width="5">
+      <path d="m77 49 72 28"/><path d="m66 65 78 32"/><path d="m61 84 69 29"/>
+      <path d="m64 106 52 22"/><path d="m71 128 31 13"/><path d="m61 153 30 12"/>
+      <path d="m48 177 42 17"/><path d="m44 201 45 18"/>
+    </g>
+
+    <!-- Magnifying glass -->
+    <circle cx="151" cy="166" r="70" stroke-width="9"/>
+    <path d="m201 216 56 56" stroke-width="14"/>
+    <path d="m211 226 13-13 54 54-13 13z" stroke-width="7"/>
+
+    <!-- Molecular network -->
+    <g stroke-width="5">
+      <path d="m113 181 28-18 29 19 25-18"/>
+      <path d="m141 163-4-34 29 3 4 50-20 26"/>
+      <path d="m113 181 8 30 29-3 25 21"/>
+      <path d="m170 182 29 22"/>
+    </g>
+    <g fill="#fff" stroke-width="4">
+      <circle cx="113" cy="181" r="8"/><circle cx="141" cy="163" r="8"/>
+      <circle cx="137" cy="129" r="8"/><circle cx="166" cy="132" r="8"/>
+      <circle cx="170" cy="182" r="8"/><circle cx="195" cy="164" r="8"/>
+      <circle cx="121" cy="211" r="8"/><circle cx="150" cy="208" r="8"/>
+      <circle cx="175" cy="229" r="8"/><circle cx="199" cy="204" r="8"/>
+    </g>
+  </g>
+</svg>

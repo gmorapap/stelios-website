@@ -1,0 +1,8 @@
+# The builder is maintained as a separate project/repository.
+/builder/
+
+# Local/system files
+.DS_Store
+Thumbs.db
+*.log
+core
