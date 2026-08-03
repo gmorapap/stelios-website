@@ -663,6 +663,7 @@ button {
     width: min(40vw, 520px);
     aspect-ratio: 1;
     display: grid;
+    overflow: hidden;
     place-items: center;
     border-radius: 50%;
     background: repeating-radial-gradient(circle at center, #111 0 3px, #242424 4px 8px);
@@ -902,11 +903,14 @@ button {
         align-items: flex-start;
     }
     .podcast-disc {
-        position: absolute;
-        right: -100px;
+     position: absolute;
+        right: 100;
         width: 390px;
-        margin-top: 330px;
+        margin-top: 360px;
         opacity: .8;
+        overflow: hidden;
+        max-width: 260px;
+        
     }
     .contact-meta {
         gap: 15px;
