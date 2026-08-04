@@ -951,7 +951,13 @@ button {
 .type-heading {
     font-family: "Manrope", Arial, sans-serif;
     font-weight: 800;
+    line-height: 1.2em !important;
 }
+
+h2 {
+    line-height: 1.2em !important;
+}
+
 
 /* CV copy gets a little more room to breathe, especially on mobile. */
 .cv-introduction > .type-body {
@@ -1845,8 +1851,9 @@ button {
 /* Podcast listing and native HTML5 MP3 players */
 .podcast-page-hero {
     position: relative;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
+
 }
 
 .podcast-page-copy .page-hero__text {
