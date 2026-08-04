@@ -270,6 +270,7 @@ button {
 
 .typewrite{
     text-decoration: none;
+    min-height: 2em;
 }
 
 .wrap_elsa{
@@ -929,6 +930,16 @@ button {
     }
 
 }
+
+
+/* Smaller Header Typography on Mobile */
+@media (max-width: 850px){
+    .typewrite{
+        font-size: 3.3em !important;
+        min-height: 150px !important;
+    }
+}
+
 
 /* Shared typography
    Keep text and headings on the same system across every page. */
