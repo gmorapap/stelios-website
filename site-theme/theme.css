@@ -729,8 +729,9 @@ button {
 }
 
 .footer-brand {
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 800;
+    line-height: 2rem;
     text-decoration: none;
 }
 
@@ -904,13 +905,13 @@ button {
         align-items: flex-start;
     }
     .podcast-disc {
-     position: absolute;
+        position: absolute;
         right: 100;
         width: 390px;
-        margin-top: 360px;
-        opacity: .8;
+        margin-top: 400px;
         overflow: hidden;
-        max-width: 260px;
+        max-width: 200px;
+        margin-left: 15%;
         
     }
     .contact-meta {
