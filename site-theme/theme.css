@@ -532,10 +532,18 @@ button {
 }
 
 .article-grid {
+    display: flex;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+}
+@media (max-width: 850px){
+    .article-grid {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: 22px;
 }
+}
+
 
 .article-grid .article-card {
     width: min(680px, 100%);
