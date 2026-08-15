@@ -546,6 +546,7 @@ button {
 
 .p-sec{
     text-indent: 30px;
+    margin: 0 !important;
 }
 
 .article-grid .article-card {
@@ -958,6 +959,7 @@ button {
 .type-body:not(.kicker) {
     font-size: var(--body-text);
     line-height: var(--body-leading);
+    margin:0 !important;
 }
 
 .type-heading {
