@@ -544,6 +544,9 @@ button {
 }
 }
 
+.p-sec{
+    text-indent: 30px;
+}
 
 .article-grid .article-card {
     width: min(680px, 100%);
